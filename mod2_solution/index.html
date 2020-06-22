@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)file:///C:/Users/DEVANG%20KANTHARIA/Desktop/Coursera/HTML/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		* {
+  			box-sizing: border-box;
+		}
+		h1 {
+	  		text-align: center;
+	  		font-family: arial; 
+		}
+
+		/**div {
+			display: inline;
+			background-color: lightgrey;
+			width: 300px;
+			border: 1px solid black;
+			padding: 50px;
+			margin: 20px;
+		}**/
+		div.relative {
+			padding-top:30px;
+  			position: relative;
+  			border: 3px solid black;
+  			background-color: grey;
+  			width: 95%;
+  			margin-right: auto;
+  			margin-left: auto;
+		} 
+
+		div.absolute1 {
+  			position: absolute;
+  			top: 0;
+  			right: 0;
+  			margin: -3px;
+  			border: 3px solid black;
+  			padding: 3px;
+  			background-color: red;
+		}
+		div.absolute2 {
+  			position: absolute;
+  			top: 0;
+  			right: 0;
+  			margin: -3px;
+  			border: 3px solid black;
+  			padding: 3px;
+  			background-color: blue;
+		}
+		div.absolute3 {
+  			position: absolute;
+  			top: 0;
+  			right: 0;
+  			margin: -3px;
+  			border: 3px solid black;
+  			padding: 3px;
+  			background-color: yellow;
+		}
+
+		/* Simple Responsive Framework. */
+		.row {
+		  width: 100%;
+		}
+
+		/********** Large devices only **********/
+		@media (min-width: 992px) {
+		  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+		    float: left;
+		  
+		  }
+		  .col-lg-1 {
+		    width: 8.33%;
+		  }
+		  .col-lg-2 {
+		    width: 16.66%;
+		  }
+		  .col-lg-3 {
+		    width: 25%;
+		  }
+		  .col-lg-4 {
+		    width: 33.33%;
+		  }
+		  .col-lg-5 {
+		    width: 41.66%;
+		  }
+		  .col-lg-6 {
+		    width: 50%;
+		  }
+		  .col-lg-7 {
+		    width: 58.33%;
+		  }
+		  .col-lg-8 {
+		    width: 66.66%;
+		  }
+		  .col-lg-9 {
+		    width: 74.99%;
+		  }
+		  .col-lg-10 {
+		    width: 83.33%;
+		  }
+		  .col-lg-11 {
+		    width: 91.66%;
+		  }
+		  .col-lg-12 {
+		    width: 100%;
+		  }
+		}
+
+		/********** Medium devices only **********/
+		@media (min-width: 768px) and (max-width: 991px) {
+		  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+		    float: left;
+		   
+		  }
+		  .col-md-1 {
+		    width: 8.33%;
+		  }
+		  .col-md-2 {
+		    width: 16.66%;
+		  }
+		  .col-md-3 {
+		    width: 25%;
+		  }
+		  .col-md-4 {
+		    width: 33.33%;
+		  }
+		  .col-md-5 {
+		    width: 41.66%;
+		  }
+		  .col-md-6 {
+		    width: 50%;
+		  }
+		  .col-md-7 {
+		    width: 58.33%;
+		  }
+		  .col-md-8 {
+		    width: 66.66%;
+		  }
+		  .col-md-9 {
+		    width: 74.99%;
+		  }
+		  .col-md-10 {
+		    width: 83.33%;
+		  }
+		  .col-md-11 {
+		    width: 91.66%;
+		  }
+		  .col-md-12 {
+		    width: 100%;
+		  }
+		}
+
+
+	</style>
+</head>
+
+<body>
+
+<h1>Our Menu</h1>
+<div class="row">
+	<div class="col-lg-4 col-md-6">
+		<div class="relative">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			<div class="absolute1">Chicken
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6">
+		<div class="relative">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			<div class="absolute2"> beef
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6">
+		<div class="relative">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			<div class="absolute3">Sushi
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+
+
+</body></html>
